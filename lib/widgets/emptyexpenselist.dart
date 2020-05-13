@@ -12,7 +12,7 @@ class EmptyExpenseList extends StatelessWidget {
         Container(
           child: Text(
             "Waiting for your expense data...",
-            style: Theme.of(context).textTheme.title.copyWith(fontSize: 20),
+            style: Theme.of(context).textTheme.headline6.copyWith(fontSize: 20),
           ),
           height: (MediaQuery.of(context).size.height -
                   appBarWidget.preferredSize.height) *

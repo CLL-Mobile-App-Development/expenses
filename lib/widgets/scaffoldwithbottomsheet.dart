@@ -85,7 +85,7 @@ class _ScaffoldWithBottomSheetState extends State<ScaffoldWithBottomSheet>{
                       children: <Widget>[
                         Text(
                           'Display Expense Chart',
-                          style: Theme.of(context).textTheme.title,
+                          style: Theme.of(context).textTheme.headline6,
                         ),
                         Switch(
                           value: _showChartBar,
@@ -119,7 +119,7 @@ class _ScaffoldWithBottomSheetState extends State<ScaffoldWithBottomSheet>{
     final _appBar = AppBar(
       title: /* Theme.of(context).appBarTheme.textTheme.title, */ Text(
         "Personal Expenses",
-        style: Theme.of(context).appBarTheme.textTheme.title,
+        style: Theme.of(context).appBarTheme.textTheme.headline6,
       ),
       actions: <Widget>[
         IconButton(

@@ -150,7 +150,7 @@ class _PersonalExpensesState extends State<PersonalExpenses> with WidgetsBinding
         accentColor: Colors.amber,
         fontFamily: 'Montserrat',
         textTheme: ThemeData.light().textTheme.copyWith(
-              title: TextStyle(
+              headline6: TextStyle(
                 fontFamily: 'Montserrat',
                 fontWeight: FontWeight.w700,
                 fontSize: 18,
@@ -160,7 +160,7 @@ class _PersonalExpensesState extends State<PersonalExpenses> with WidgetsBinding
             ),
         appBarTheme: AppBarTheme(
             textTheme: ThemeData.light().textTheme.copyWith(
-                  title: TextStyle(
+                  headline6: TextStyle(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w900,
                     fontSize: 22,
