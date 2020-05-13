@@ -9,7 +9,7 @@ The current version of the app has additional functionality to perform edit/dele
 Cloud Firestore as backend data store.
 
                                                          
-<img src="https://github.com/BODF-Mobile-App-Development/personal-expenses-tracker/blob/master/Personal_Expenses_Tracker_Final.gif" alt="Personal-Expenses-App-Gif" width=500px height=875px/>
+<img src="https://github.com/CLL-Mobile-App-Development/expenses/blob/master/Personal_Expenses_Tracker_Final.gif" alt="Personal-Expenses-App-Gif" width=500px height=875px/>
 
 
 ***
