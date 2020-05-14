@@ -10,10 +10,6 @@ import './widgets/updateexpenseitem.dart';
 import './widgets/scaffoldwithbottomsheet.dart';
 
 void main() {
-  // SystemChrome.setPreferredOrientations([
-  //   DeviceOrientation.portraitUp,
-  //   //DeviceOrientation.portraitDown,
-  // ]);
   runApp(PersonalExpenses());
 }
 

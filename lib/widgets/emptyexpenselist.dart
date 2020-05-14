@@ -26,7 +26,6 @@ class EmptyExpenseList extends StatelessWidget {
         Container(
           child: Image.asset(
             "assets/images/waiting.png",
-            //fit: BoxFit.cover,
           ),
           height: (MediaQuery.of(context).size.height -
                   appBarWidget.preferredSize.height) *

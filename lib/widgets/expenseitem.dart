@@ -6,13 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class ExpenseItem extends StatefulWidget {
-  /* final ExpenseItemEntry itemEntry;
-
-  ExpenseItem({
-    @required this.itemEntry,
-  }); */
-
-  /* final DocumentSnapshot document; */
+  
   final DocumentSnapshot document;
   final Function trashIconButtonAction, editIconButtonAction;
 
@@ -153,69 +147,7 @@ class _ExpenseItemState extends State<ExpenseItem> {
 
   @override
   Widget build(BuildContext context) {
-    // return Container(
-    //   child: Card(
-    //     child: Row(
-    //       children: <Widget>[
-    //         Container(
-    //           child: Text(
-    //             (/* "\$${itemEntry.itemPrice.toStringAsFixed(2)}" */ "\$" +
-    //                 document['expense amount']
-    //                     .toString()), // Fetched as input to ExpenseItem class constructor.
-    //             style: /* TextStyle(
-    //               color: Theme.of(context)
-    //                   .primaryColor, // Fetches primaryColor from the primarySwatch color scheme set at app-level
-    //               // in the "theme" attribute of MaterialApp widget.
-    //               // The of(context) method fetches the Theme state that is part of the context.
-    //               fontWeight: FontWeight.w400,
-    //               fontSize: 20,
-    //             ) */ Theme.of(context).textTheme.title.copyWith(
-    //                       fontSize: 20,
-    //                       color: Theme.of(context).primaryColor,
-    //                     ),
-    //           ),
-    //           decoration: BoxDecoration(
-    //               border: Border.all(
-    //                   color: Theme.of(context).primaryColor, width: 2.5)),
-    //           padding: EdgeInsets.all(14.0),
-    //           margin: EdgeInsets.all(10.0),
-    //         ),
-    //         Container(
-    //           child: Column(
-    //             children: <Widget>[
-    //               Text(
-    //                 /* "${itemEntry.itemName}" */ document['expense name'],
-    //                 style: Theme.of(context).textTheme.title.copyWith(
-    //                       fontSize: 20,
-    //                     ),
-    //               ),
-    //               Text(
-    //                 DateFormat.yMMMd().format(
-    //                     /* itemEntry.purchaseDate */ DateTime.parse(document[
-    //                         'transaction date'])), // Convert TimeStamp -> String -> DateTime through parse
-    //                 style: Theme.of(context).textTheme.title.copyWith(
-    //                       color: Colors.grey,
-    //                     ),
-    //               )
-    //             ],
-    //             crossAxisAlignment: CrossAxisAlignment.start,
-    //             mainAxisAlignment: MainAxisAlignment.center,
-    //           ),
-    //         ),
-    //       ],
-    //       mainAxisAlignment: MainAxisAlignment.start,
-    //       mainAxisSize: MainAxisSize.min,
-    //     ),
-    //     //color: Colors.grey,
-    //     elevation: 10,
-    //     margin: EdgeInsets.all(8.0),
-    //   ),
-    //   padding: EdgeInsets.all(4.0),
-    //   width: double.infinity,
-    //   height: 100,
-    //   //decoration: BoxDecoration(border: Border.all(width: 4.0)),
-    //   //alignment: Alignment(0.0,0.0),
-    // )
+    
     return Container(
       child: Card(
         child: ListTile(

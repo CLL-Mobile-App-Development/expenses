@@ -129,7 +129,6 @@ class _UpdateExpenseItemState extends State<UpdateExpenseItem> {
                 ),
                 controller: _expenseAmountController,
                 keyboardType: TextInputType.number,
-                //onSubmitted: (_) => _updateItemEventActionWrapper(),
               ),
               SizedBox(
                 height: 20,

@@ -82,7 +82,6 @@ class ExpenseChart extends StatelessWidget {
       width: double.infinity,
       height: 150,
       margin: EdgeInsets.all(10.0),
-      //alignment: Alignment(0.0,0.0),
     );
   }
 }

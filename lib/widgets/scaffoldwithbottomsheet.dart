@@ -10,16 +10,13 @@ import 'emptyexpenselist.dart';
 import 'nonemptyexpenselist.dart';
 
 class ScaffoldWithBottomSheet extends StatefulWidget{
-  // final List<ExpenseItemEntry> itemList;
   final Function addWithBottomSheetAction,
       deleteWithTrashIconAction, updateWithBottomSheetAction /* , generateItemList */;
 
   ScaffoldWithBottomSheet({
-    // @required this.itemList,
     @required this.addWithBottomSheetAction,
     @required this.deleteWithTrashIconAction,
     @required this.updateWithBottomSheetAction,
-    /* @required this.generateItemList */
   });
 
   @override
@@ -54,8 +51,6 @@ class _ScaffoldWithBottomSheetState extends State<ScaffoldWithBottomSheet>{
   Widget buildExpenseChartInContainer(AsyncSnapshot<dynamic> qSnapshot) {
 
     return Container(
-                //height: MediaQuery.of(context).size.height * 0.4,
-                //width: MediaQuery.of(context).size.width * 0.7,
                 child: ExpenseChart(
                   expenseDataList: _retrievelastWeekExpenses(qSnapshot),
                 ),
@@ -117,7 +112,7 @@ class _ScaffoldWithBottomSheetState extends State<ScaffoldWithBottomSheet>{
 
     // Declared outside the Scaffold widget to be used in other widgets for enabling dynamic sizing and thereby responsiveness
     final _appBar = AppBar(
-      title: /* Theme.of(context).appBarTheme.textTheme.title, */ Text(
+      title: Text(
         "Personal Expenses",
         style: Theme.of(context).appBarTheme.textTheme.headline6,
       ),
